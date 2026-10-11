@@ -30,7 +30,7 @@ name = 'Research'
  weight = 20
 [[menus.main]]
  name = 'Datasets'
- pageRef = '/data'
+ pageRef = '/datasets'
  weight = 40
 [[menus.main]]
  name = 'Teaching'
