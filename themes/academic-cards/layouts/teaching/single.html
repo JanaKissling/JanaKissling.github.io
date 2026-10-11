@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<h1 class="teaching-page-title">{{ .Title }}</h1>
+
+<article class="research-detail card">
+
+  {{ with .Params.image }}
+    <img class="teaching-image"
+         src="{{ . | relURL }}"
+         alt="{{ $.Params.image_alt | default $.Title }}">
+  {{ end }}
+
+  <div class="prose research-detail-content">
+    {{ .Content }}
+  </div>
+
+</article>
+
+{{ end }}

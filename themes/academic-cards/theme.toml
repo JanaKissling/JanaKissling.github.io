@@ -1,0 +1,6 @@
+name = 'Academic Cards'
+license = 'MIT'
+description = 'A responsive academic Hugo theme with profile, updates, featured work, and research pages.'
+min_version = '0.146.0'
+[author]
+ name = 'Jana Kissling'

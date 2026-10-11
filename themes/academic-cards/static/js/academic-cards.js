@@ -1,0 +1,5 @@
+document.documentElement.classList.add('js');
+const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('#main-nav');
+if(toggle&&nav){toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));nav.classList.toggle('is-open',open)});document.addEventListener('keydown',e=>{if(e.key==='Escape'){toggle.setAttribute('aria-expanded','false');nav.classList.remove('is-open')}})}
+const track=document.querySelector('.work-track'),controls=document.querySelector('.carousel-controls');
+if(track&&controls){controls.hidden=false;const buttons=controls.querySelectorAll('button');const refresh=()=>{buttons[0].disabled=track.scrollLeft<3;buttons[1].disabled=track.scrollLeft+track.clientWidth>=track.scrollWidth-3};buttons.forEach(b=>b.addEventListener('click',()=>{const card=track.querySelector('.work-card');track.scrollBy({left:Number(b.dataset.step)*(card.getBoundingClientRect().width+24),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'})}));track.addEventListener('scroll',refresh);window.addEventListener('resize',refresh);refresh()}

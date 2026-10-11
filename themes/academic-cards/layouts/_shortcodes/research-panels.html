@@ -1,0 +1,9 @@
+{{ $theme := .Get "theme" }}
+
+<div class="research-grid">
+  {{ range (where .Site.RegularPages "Section" "research").ByWeight }}
+    {{ if eq .Params.research_theme $theme }}
+      {{ partial "work-card.html" . }}
+    {{ end }}
+  {{ end }}
+</div>

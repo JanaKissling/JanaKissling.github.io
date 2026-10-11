@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<h1 class="cv-page-title">{{ .Title }}</h1>
+
+<article class="research-detail card">
+
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  {{ with site.Params.cv }}
+    <p>
+      <a class="button" href="{{ . | relURL }}" download>
+        Download CV (PDF)
+      </a>
+    </p>
+
+    <iframe
+      class="cv-preview"
+      src="{{ . | relURL }}"
+      title="Jana Kissling — Curriculum Vitae">
+    </iframe>
+  {{ end }}
+
+</article>
+
+{{ end }}

@@ -1,0 +1,46 @@
+baseURL = 'https://JanaKissling.github.io/'
+locale = 'en'
+title = 'Jana Kissling'
+theme = 'academic-cards'
+disableKinds = ['taxonomy', 'term', 'RSS']
+[params]
+  role = 'Ph.D. Candidate in Political Science · ETH Zürich'
+  description = 'Research on identity politics, conflict, peacebuilding.'
+  introduction = '''
+
+Welcome! I am a political scientist focusing on the transnational dynamics of **identity**, **conflict**, and **peacebuilding**.
+
+In my research, I explore the role of **transnational identity** networks in shaping different forms of violence, including ethnic cleansing and election violence. 
+
+Using original **geospatial data**, causal inference, and **mixed-methods** tools, I study how these identities become politicized across borders, when ethnic groups become targets of violence, and how peacebuilding can foster reconciliation between groups divided by conflict. 
+
+My work has been published in [International Peacekeeping](https://doi.org/10.1080/13533312.2022.2134121), is supported by the [Swiss National Science Foundation](https://data.snf.ch/grants/grant/227100), and involves collaborations with the Center for Security Studies (ETH Zurich), and the Weatherhead Center for International Affairs (Harvard University).
+'''
+  portrait = 'images/portrait.png'
+  email = 'jana.kissling@icr.gess.ethz.ch'
+  scholar = 'https://scholar.google.com/citations?user=gHn3lP8AAAAJ&hl=de&oi=ao'
+  orcid = 'https://orcid.org/0000-0002-2822-7333'
+  github = ''
+  linkedin = 'https://www.linkedin.com/in/jana-kissling-186562146'
+  twitter = 'https://x.com/JanaRKissling'
+  cv = 'files/kissling_cv.pdf'
+[[menus.main]] 
+name = 'Research'
+ pageRef = '/research'
+ weight = 20
+[[menus.main]]
+ name = 'Datasets'
+ pageRef = '/data'
+ weight = 40
+[[menus.main]]
+ name = 'Teaching'
+ pageRef = '/teaching'
+ weight = 50
+[[menus.main]]
+name = 'CV'
+ pageRef = '/cv'
+ weight = 55
+[[menus.main]]
+ name = 'Contact'
+ pageRef = '/contact'
+ weight = 60

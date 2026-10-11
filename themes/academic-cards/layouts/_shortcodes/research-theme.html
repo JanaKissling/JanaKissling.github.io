@@ -1,0 +1,24 @@
+<section class="research-theme card">
+  <div class="research-theme-intro">
+  {{ with .Get "image" }}
+    <img
+      class="research-theme-image"
+      src="{{ . | relURL }}"
+      alt="{{ $.Get "image_alt" | default ($.Get "title") }}">
+  {{ end }}
+
+  <div class="research-theme-copy">
+    <h2>{{ .Get "title" }}</h2>
+    {{ .Inner | .Page.RenderString }}
+  </div>
+</div>
+
+  {{ $theme := .Get "theme" }}
+  <div class="research-grid">
+    {{ range (where .Site.RegularPages "Section" "research").ByWeight }}
+      {{ if eq .Params.research_theme $theme }}
+        {{ partial "work-card.html" . }}
+      {{ end }}
+    {{ end }}
+  </div>
+</section>

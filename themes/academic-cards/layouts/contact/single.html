@@ -1,0 +1,49 @@
+{{ define "main" }}
+<article class="article-card card">
+  <div class="article-header">
+    <h1>{{ .Title }}</h1>
+  </div>
+
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.email }}
+    <a class="contact-email" href="mailto:{{ . }}">
+      <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+      <span>{{ . }}</span>
+    </a>
+  {{ end }}
+
+  <h2 class="contact-social-heading">Social Media</h2>
+
+  <div class="profile-socials contact-socials"
+       aria-label="Academic and social profiles">
+
+    {{ with .Params.scholar }}
+      <a href="{{ . }}"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Google Scholar" title="Google Scholar">
+        <i class="fa-brands fa-google-scholar" aria-hidden="true"></i>
+      </a>
+    {{ end }}
+
+    {{ with .Params.linkedin }}
+      <a href="{{ . }}"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="LinkedIn" title="LinkedIn">
+        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+      </a>
+    {{ end }}
+
+    {{ with .Params.twitter }}
+      <a href="{{ . }}"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="X" title="X">
+        <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+      </a>
+    {{ end }}
+
+  </div>
+</article>
+{{ end }}
