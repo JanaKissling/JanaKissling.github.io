@@ -5,7 +5,7 @@ theme = 'academic-cards'
 disableKinds = ['taxonomy', 'term', 'RSS']
 [params]
   role = 'Ph.D. Candidate in Political Science · ETH Zürich'
-  description = 'Research on identity politics, conflict, peacebuilding.'
+  description = 'Jana Kissling is a political scientist at ETH Zürich researching transnational identity politics, ethnic violence, and peacebuilding.'
   introduction = '''
 
 Welcome! I am a political scientist focusing on the transnational dynamics of **identity**, **conflict**, and **peacebuilding**.
