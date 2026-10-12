@@ -13,7 +13,7 @@ aliases = ['/data/']
 
 Leading a coding team at ETH Zurich, I develop the first **geo-located** dataset on ethnic cleansing at the **village level** across Africa, the Middle East, and Asia (1990–2021).
 
-The GeoEFD provides **researchers** and **policymakers** with the most comprehensive data on events of **ethnic cleansing** and their **subnational locations**. 
+The GeoEFD offers **researchers** and **policymakers** the most comprehensive data on events of **ethnic cleansing** and their **subnational locations**. 
 
 Ethnic cleansing events involve the systematic use of armed force with the intent to permanently remove members of an ethnic group from a specific territory.
 
@@ -23,7 +23,7 @@ The dataset makes two contributions:
 
 2) Identifies **target** groups and **perpetrators**, as well as perpetrators' **strategies** and **justifications** for ethnic cleansing.
 
-The dataset provies the empirical basis to study where ethnic cleansing occurs and how it transforms affected locations over time. 
+The dataset provides the empirical basis to study where ethnic cleansing occurs and how it transforms affected locations over time. 
 
 It can be leveraged by researchers, public institutions, and policymakers to answer questions like:
 
