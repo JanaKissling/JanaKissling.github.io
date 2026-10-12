@@ -50,7 +50,7 @@ I combine this dataset with maps of group settlements and geo-located surveys in
 
 In ongoing work, I explore how ethnic violence unfolds locally and how it transforms affected communities in their social, economic, and political life. 
 
-Understanding the local patterns is crucial to mitigate its effects on post-conflict reconciliation and development.
+Understanding the local patterns of violence is crucial to mitigate its effects on post-conflict reconciliation and development.
 
 {{< /research-theme >}}
 
