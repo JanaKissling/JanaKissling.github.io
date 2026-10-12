@@ -42,7 +42,7 @@ I combine this dataset with maps of group settlements and geo-located surveys in
 
 • **Research:** Transnational ethnic identities are not static but can be activated by nationalist claims and reinforced through experiences of violence
 
-• **Policy:** Addressing transnational networks is relevant for mitigating the risk of ethnic violence and improve intergroup relations in its aftermath
+• **Policy:** Addressing transnational networks is relevant for mitigating the risk of ethnic violence and improving intergroup relations in its aftermath
 
 {{< /research-theme >}}
 
