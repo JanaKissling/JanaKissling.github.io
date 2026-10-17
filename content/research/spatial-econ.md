@@ -2,8 +2,8 @@
 title = "Political and economic consequences of ethnic cleansing"
 project_title = "The Political and Economic Consequences of Ethnic Cleansing in Africa"
 category = "Working paper"
-authors = "Marko Kljajic · Jana Kissling "
-coauthors = "Marko Kljajic"
+authors = "Marko Kljajić · Jana Kissling "
+coauthors = "Marko Kljajić"
 description = "How does ethnic cleansing affect local communities in areas from which groups are displaced? This article examines the economic and political consequences of ethnic cleansing using satellite imagery and geo-located survey data in Africa."
 featured = true
 weight = 1
